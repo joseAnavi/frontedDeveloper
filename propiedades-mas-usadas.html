@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades mas utilizadas</title>
+    <style>
+        section {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: lightblue;
+        }
+        
+        .card {
+            width: 300px;
+            height: 300px;
+            background: papayawhip;
+            border-radius: 30%;
+            /*Todo lo que se salga nos lo oculte*/
+            overflow: hidden;
+            margin: 2px;
+            border: 1px solid gray;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .texto,
+        .texto1 {
+            position: absolute;
+            color: rgba(24, 8, 114, 0.726);
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .texto {
+            top: 20px;
+            left: 60px;
+        }
+        
+        .texto1 {
+            top: 40px;
+            left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="card"><img src="https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Dog">
+            <p class="texto">Eres especial</p>
+            <p class="texto1">LOVE</p>
+        </div>
+        <div class="card"><img src="https://images.pexels.com/photos/4555468/pexels-photo-4555468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Dog">
+            <p class="texto">Mi pasion</p>
+            <p class="texto1">My dog</p>
+        </div>
+        <div class="card"><img src="https://images.pexels.com/photos/4588047/pexels-photo-4588047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Dog">
+            <p class="texto">DOGUI</p>
+            <p class="texto1">LOVE</p>
+        </div>
+
+    </section>
+</body>
+
+</html>
